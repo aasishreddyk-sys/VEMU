@@ -1,0 +1,112 @@
+Students Attendance Maintenance System
+1. Introduction
+1.1 Purpose
+The purpose of the Student Attendance Maintenance System is to automate and manage
+student attendance in engineering colleges, replacing manual registers with a digital, accurate,
+and efficient system.
+1.2 Scope
+The system will be used by:
+ Students
+ Faculty members
+ Department administrators
+ College administration
+It will support attendance recording, monitoring, reporting, and analysis.
+2. User Classes and Characteristics
+User Type Description
+Admin Manages system, users, departments, subjects
+Faculty Marks and views attendance
+Students View attendance and reports
+HOD Monitors department-level attendance
+3. Functional Requirements
+3.1 Admin Requirements
+ Login with secure authentication
+ Add / update / delete:
+o Departments
+o Courses
+o Subjects
+o Faculty details
+o Student details
+
+-- 1 of 4 --
+
+ Assign faculty to subjects
+ Set attendance rules (minimum percentage, semester duration)
+ Generate college-level reports
+ Backup and restore data
+3.2 Faculty Requirements
+ Secure login
+ View assigned subjects and classes
+ Mark attendance (daily / hourly)
+ Edit attendance (with permission)
+ View student-wise and class-wise attendance
+ Generate attendance reports
+ Notify students with low attendance
+3.3 Student Requirements
+ Secure login
+ View personal attendance percentage
+ View subject-wise attendance
+ Download attendance reports
+ Receive alerts for low attendance
+ View academic calendar
+3.4 HOD Requirements
+ View department attendance summary
+ Monitor faculty attendance marking status
+ Generate department-level reports
+ Identify defaulters
+4. Non-Functional Requirements
+4.1 Performance
+ System should support concurrent users
+ Attendance updates should be real-time
+ Reports should be generated within seconds
+
+-- 2 of 4 --
+
+4.2 Security
+ Role-based access control
+ Encrypted passwords
+ Secure login and logout
+ Data backup and recovery
+4.3 Usability
+ User-friendly interface
+ Easy navigation
+ Responsive design (mobile and desktop)
+4.4 Reliability
+ System uptime ≥ 99%
+ Error handling and logging
+ Data consistency maintained
+5. System Requirements
+5.1 Hardware Requirements
+ Server with minimum 8GB RAM
+ Client devices (PC / Laptop / Mobile)
+5.2 Software Requirements
+ Operating System: Windows / Linux
+ Backend: Java / Python
+ Frontend: HTML, CSS, JavaScript
+ Database: MySQL / PostgreSQL
+ Browser: Chrome, Firefox
+6. Data Requirements
+ Student information
+ Faculty information
+ Attendance records
+ Course and subject details
+ Academic calendar
+
+-- 3 of 4 --
+
+7. Constraints
+ Must comply with college attendance policies
+ Limited access based on roles
+ Internet dependency (for cloud-based system)
+8. Assumptions
+ All users have valid login credentials
+ Faculty mark attendance regularly
+ Students access attendance online
+9. Future Enhancements
+ Biometric / RFID integration
+ Face recognition attendance
+ Mobile application
+ SMS / Email alerts
+ Integration with Learning Management System (LMS)
+
+-- 4 of 4 --
+
